@@ -57,49 +57,49 @@ margin-left: 20px;
 }
 
 
-#name {
+.name {
 margin-top: -100px;
 color: hsl(0, 0%, 100%);
 margin-left: 100px;
 }
 
-#verif{
+.verif{
 margin-top: -100px;
 color: hsla(0, 0%, 100%, 0.501);
 margin-left: 100px;
 }
 
-#name1 {
+.name1 {
     margin-top: -120px;
     color: hsl(0, 0%, 100%);
     margin-left: 100px;
 }
 
-#verif1 {
+.verif1 {
     margin-top: -120px;
     color: hsla(0, 0%, 100%, 0.501);
     margin-left: 100px;
 }
 
-#name2{
+.name2{
     margin-top: -100px;
     color: hsl(219, 29%, 14%);
     margin-left: 100px;
 }
 
-#verif2 {
+.verif2 {
     margin-top: -100px;
     color: hsla(217, 30%, 14%, 0.511);
     margin-left: 100px;
 }
 
-#name3 {
+.name3 {
     margin-top: -150px;
     color: hsl(219, 29%, 14%);
     margin-left: 90px;
 }
 
-#verif3 {
+.verif3 {
     margin-top: -180px;
     color: hsla(217, 30%, 14%, 0.511);
     margin-left: 90px;
@@ -123,4 +123,8 @@ h3{
 h5{
     color:hsla(0, 0%, 100%, 0.695);
     margin:0 20px 20px 26px;
+}
+@media (min-width:640px){
+ #main-content section{
+ grid-column:1/14}
 }
